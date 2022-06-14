@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 98px;
+}
+
+.logo {
+    font-size: 30px;
+    color: var(--color-white);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--color-white);
+    transition: all .2s ease;
+}
+
+nav ul li a:hover {
+    color: var(--color-primary);
+}
+
+.button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #DEBF79;
+    text-decoration: none;
+    background-color: none;
+}
+body {
+    width:100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #222222;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 92%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    flex: 1 1 20rem;
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 10px;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    padding: 20px 20px;
+    align-self: normal;
+    height: 400px;
+}
+
+.rabbitcard{
+    flex: 1 1 20rem;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    padding: 20px 20px;
+    align-self: normal;
+    height: 400px;
+}
+
+.card img{
+    max-width: 200px;
+    
+}
+
+.rabbitcard h2{
+    font-size: 2rem;
+    align-content: left;
+    padding-top: 19px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.rabbitcard p{
+    margin-bottom: 10px;
+    padding: 30px;
+    color: #858585;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.rabbitcard img{
+    max-width: 200px;
+    margin-top: 25px;
+}
+
+.rabbitcard .btn{
+    display: inline-block;
+    margin-top: auto;
+    background: #DEBF79;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    padding: 10px 20px;
+    border-radius: 5px;;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 13px;
+}
+
+
+.card h2{
+    font-size: 2rem;
+    align-items: left;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.card p{
+    margin-bottom: 10px;
+    padding: 30px;
+    color: #858585;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.card .btn{
+    display: inline-block;
+    margin-top: auto;
+    background: #DEBF79;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    padding: 10px 20px;
+    border-radius: 5px;;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 13px;
+}
+
+.flexbox-container {
+    display: flex;
+    padding: 60px 98px;
+}
+
+.underline-small {
+    color: white;
+    position: relative;
+    font-size: 55px;
+}
+
+.underline-small::after {
+    content:'';
+    height: 4px;
+    width: 67%;
+    position: absolute;
+    background: #DEBF79;
+    left: 0;
+    bottom: 0;
+}
+
+.paragraph {
+    font-weight: 400;
+    color: white;
+    align-self: center;
+    font-size: 17px;
+    margin: -30px 75px 0px 75px;
+}
+
+.javalist {
+color: white;
+line-height: 30px;
+padding-left: 100px;
+}
+
+.javabutton {
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #DEBF79;
+    text-decoration: none;
+    display: inline;
+    padding: 0;
+    background: none;
+}
+
+.javacover {
+    position: absolute;
+    bottom: -61px;
+    left: -10px;
+}
